@@ -1,40 +1,6 @@
 /*
 
-Pasitos desglosados:
-? click en COMENZAR --> 
-	* Se "activa" el STEP 1 ($step1 cambia de estilos) ----> LISTO
-	* Cambia el titulo($crearGifTitle) ----> LISTO
-	* Cambia el texto ($crearGifText) ----> LISTO
-	* Pide el permiso, sale el cartel emergente ----> LISTO
-	* Desaparece el botón ($buttons). ----> LISTO
-	* Una vez que acepta, aparece el botón GRABAR  ----> LISTO
-		* Cambia STEP 2 ($step1 cambia de estilos ----> LISTO
-		* Aparece la previsualización del video ----> LISTO
 
-? click en GRABAR
-	* Aparece botón FINALIZAR ----> LISTO
-	* Aparece el timer ----> LISTO
-	* Empieza a grabar ----> LISTO
-
-? click en FINALIZAR
-	* Cambia a botón SUBIR GIFO ----> LISTO
-	* Cambia a STEP 3 ----> LISTO
-	* Apaprece REPETIR CAPTURA ----> LISTO
-	* Aparece el gif YA GRABADO ----> LISTO
-
-? click en SUBIR GIFO
-	* SUBIENDO GIFO 
-		* función que suba el gif y cambie esto? :
-		Aparece SOBRE EL VIDEO el overlay ----> LISTO
-
-	* GIFO SUBIDO CON ESITO 
-		* 1. Cambia el texto e ícono ----> LISTO
-		* 2. Se envía a MIS GIFOS----> LISTO
-		* 3. Al overlay le aparecen los botones.----> LISTO
-
-? click en REPETIR CAPTURA
-	* Vuelve al estado 2? Grabar? ----> LISTO
-	* Acá habría que resetear textos del bottón a comenzar ----> LISTO
 
 */
 $buttonGrabar.style.display = 'none';
